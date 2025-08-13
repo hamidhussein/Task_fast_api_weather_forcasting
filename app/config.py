@@ -18,9 +18,13 @@ class JWTSettings(BaseModel):
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 60
 
+class WeatherAPISettings(BaseModel):
+    api_key: str
+
 class Settings(BaseModel):
     database: DBSettings
     jwt: JWTSettings
+    weather_api: WeatherAPISettings
 
 def load_settings(config_path: str | Path = Path(__file__).resolve().parents[1] / "config.json") -> Settings:
     data = json.loads(Path(config_path).read_text())

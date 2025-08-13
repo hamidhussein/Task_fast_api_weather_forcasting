@@ -10,5 +10,8 @@
     "secret_key": "CHANGE_ME_SUPER_SECRET_KEY",
     "algorithm": "HS256",
     "access_token_expire_minutes": 60
+  },
+  "weather_api": {
+    "api_key": "YOUR_WEATHERAPI_KEY"
   }
 }
