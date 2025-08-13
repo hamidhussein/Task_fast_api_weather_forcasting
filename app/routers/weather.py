@@ -22,7 +22,7 @@ async def get_week_forecast(
         "aqi": "no",  # You can disable air quality data if you don't need it
         "alerts": "no",  # Disable weather alerts
     }
-
+    
     async with httpx.AsyncClient(timeout=20) as client:
         response = await client.get(base_url, params=params)
         response.raise_for_status()  # This will raise an exception if the request fails
