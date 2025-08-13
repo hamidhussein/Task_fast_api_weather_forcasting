@@ -1,0 +1,14 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "postgres",
+    "password": "postgres",
+    "database": "weatherdb"
+  },
+  "jwt": {
+    "secret_key": "CHANGE_ME_SUPER_SECRET_KEY",
+    "algorithm": "HS256",
+    "access_token_expire_minutes": 60
+  }
+}
