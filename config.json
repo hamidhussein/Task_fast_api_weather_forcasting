@@ -7,11 +7,11 @@
     "database": "weatherdb"
   },
   "jwt": {
-    "secret_key": "CHANGE_ME_SUPER_SECRET_KEY",
+    "secret_key": "01996d067d368b6ac2728cc76a73efbc5bc39bc0dd364cbc809d90e04236c162",
     "algorithm": "HS256",
     "access_token_expire_minutes": 60
   },
   "weather_api": {
-    "api_key": "YOUR_WEATHERAPI_KEY"
+    "api_key": "85fe739f0f7f4f17b0a173001251308"
   }
 }
