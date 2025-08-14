@@ -164,18 +164,7 @@ Task_fast_api_weather/
 └── README.md
 ```
 
-## 8) GitHub
-Initialize a public repo and push:
-```bash
-git init
-git add .
-git commit -m "Initial commit: FastAPI auth + weather with WeatherAPI"
-git branch -M main
-git remote add origin https://github.com/<your-username>/Task_fast_api_weather.git
-git push -u origin main
-```
 
----
 
 ### Notes
 - Weather data is powered by WeatherAPI and requires an API key.
