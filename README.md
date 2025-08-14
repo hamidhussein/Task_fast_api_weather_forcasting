@@ -29,7 +29,7 @@ Copy `config.json` and edit the credentials:
     "port": 5432,
     "user": "postgres",
     "password": "postgres",
-    "database": "weatherdb"
+    "database": "db_weather_forecasting"
   },
   "jwt": {
     "secret_key": "CHANGE_ME_SUPER_SECRET_KEY",
